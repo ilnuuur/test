@@ -1,0 +1,11 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+{% load staticfiles %}
+<div style="float: left; padding: 10px;">
+        <p style='font-family:"Courier New", Courier, monospace'>Таблица</p>{{table}}}
+</div>
+
+{{ map|safe }}
+
+{% endblock %}
